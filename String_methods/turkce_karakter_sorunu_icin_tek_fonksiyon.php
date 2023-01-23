@@ -31,7 +31,7 @@ function ConvertLetter($text,$case)
     $edit = $editFL.$otherLetter;
   }
   
-  return $edit;
+  return $edit; 
 }
 
 
