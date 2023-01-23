@@ -2,8 +2,8 @@
 
 function ConvertLetter($text,$case)
 {
-  $replaceLower = array("ç", "ğ", "ı", "i", "ö", "ş", "ü");
-  $replaceUpper = array("Ç", "Ğ", "I", "İ", "Ö", "Ş", "Ü");
+  $replaceLower = array("ç", "ğ", "ı", "i", "ö", "ş", "ü"); //Dönüştürülecek türkçe-küçük karakter dizisi
+  $replaceUpper = array("Ç", "Ğ", "I", "İ", "Ö", "Ş", "Ü"); //Dönüştürülecek türkçe-büyük karakter dizisi
   
   if($case == "upper")
   {
